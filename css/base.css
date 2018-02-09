@@ -1,0 +1,189 @@
+/* Boarder Box */
+
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+/* Basic Styles */
+
+body {
+	font-family: 'Roboto', sans-serif; 
+	font-size: 100%; 
+	font-weight: 300;
+	line-height: 1.563em;
+	color: #2F2F2F; 
+}
+/* Typography 1.333- perfect fourth*/
+/* typeskill.com */
+
+p {
+	margin: 0 0 1.3em 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0 0 1.3em 0;
+	line-height: 1.2;
+	color: #2F2F2F;
+}
+
+h1 {
+	font-family: 'Roboto Slab', serif;
+	font-size: 3.157em;
+	font-weight: 700;
+}
+
+h2 {
+	font-family: 'Roboto Slab', serif;
+	font-size: 2.369em;
+	font-weight: 700;
+
+}
+
+h3 {
+	font-family: 'Roboto Slab', serif;
+	font-size: 1.777em;
+	font-weight: 700;
+}
+
+h4 {
+	font-family: 'Roboto Slab', serif;
+	font-size: 1.333em;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: .05em;
+}
+
+h5 {
+	font-family: 'Roboto Slab', serif;
+	font-size: 1em;
+	font-weight: 700;
+}
+
+h6 {
+	font-family: 'Roboto Slab', serif;
+	font-size: 0.75em;
+	font-weight: 700;
+}
+
+.small-type {
+	font-size: 0.75em;
+}
+strong{
+	font-weight: bold;
+}
+/* Links */
+
+a {
+	color: #000000;
+	text-decoration: underline;
+}
+
+a:link {
+	color: #000000;
+	text-decoration: underline;
+}
+
+
+a:visited {
+	color: #000000;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #56627a;
+	text-decoration: none;
+}
+
+a:active {
+	color: #56627a;
+	text-decoration: none;
+}
+
+/*Simple Grid*/
+
+.columns_2 {
+	width: 460px; 
+	float: left;
+	margin-right: 20px;
+	
+}
+
+.columns_2:last-of-type {
+	margin: 0;
+}
+
+.columns_3 {
+	width: 300px; 
+	float: left;
+	margin-right: 20px;
+	
+}
+
+.columns_3:last-of-type {
+	margin: 0;
+}
+
+.columns_4 {
+	width: 220px; 
+	float: left;
+	margin-right: 20px;
+	
+}
+
+.columns_4:last-of-type {
+	margin: 0;
+}
+
+.columns_6 {
+	width: 140px; 
+	float: left;
+	margin-right: 20px;
+	
+}
+
+.columns_6:last-of-type {
+	margin: 0;
+}
+
+.columns_12 {
+	width: 60px; 
+	float: left;
+	margin-right: 20px;
+	
+}
+
+.columns_12:last-of-type {
+	margin: 0;
+}
+
+/* Misc HTML */
+
+.alight-right {
+	float: right;
+	margin: 0 0 0 10px;
+}
+
+.alight-left {
+	float: left;
+	margin: 0 10px 0 0;
+}
+
+.alight-center {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+
+.container {
+	width: 940px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	overflow: hidden;
+	clear: both; 
+	
+}
