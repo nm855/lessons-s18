@@ -261,6 +261,29 @@ border-radius: 35px;
 text-align: left;
 }
 
+
+/* Audio  */
+
+#audio {
+	width: 100%;
+	padding: 100px 0;
+	background: #4C4C4C;
+}
+
+audio {
+	width: 100%;
+}
+
+/* video */
+
+#video  {
+	width: 100%;
+	padding: 100px 0;
+	background: #000000;
+}
+
+
+
 /* ------- [ Footer ] ------- */
 footer {
   width: 100%;
